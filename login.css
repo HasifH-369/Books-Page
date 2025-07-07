@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(193, 127, 127);
+    background-image: url(/images/library.jpg);
+    background-size: cover;
+}
+.main{
+    border: 10px solid rgb(164, 92, 92);
+    margin-top: 100px;
+    background-color:rgb(248, 239, 239);
+    height:auto;
+    padding: 50px;
+    margin-right: 20px;
+    width: 18rem;
+    border-radius: 2px;
+    background-image: url(/images/books.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+.main a{
+    align-items: right;
+}
+#log{
+    background-color: rgb(170, 96, 78);
+    width: 100%;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 30px;
+}
+.login{
+    color: rgb(101, 34, 34);
+    font-size: 40px;
+    font-family: initial;
+}
+.mylogin{
+    color: rgb(0, 0, 0);
+}
+.para{
+    font-size: 15px;
+    font-family: monospace;
+}

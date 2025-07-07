@@ -1,0 +1,74 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #d9bfbf;
+    background-image: url(/images/b2.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.container{
+    background: rgb(203, 171, 128);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(108, 105, 42);
+    width:  320px;
+    background-image: url(/images/books.jpg);
+    background-blend-mode: color-burn;
+}
+.signup h2 {
+    margin-bottom: 50px;
+    color: rgb(255, 152, 27);
+    font-size: 30px;
+}
+.signup input {
+    padding: 11px;
+    width: 300px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(187, 127, 84);
+    border-radius: 8px;
+    font-size:  14px;
+    outline: none;
+}
+.sign{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(170, 170, 225);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.sign:hover{
+    background-color: rgb(177, 114, 114);
+}
+.login{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(199, 184, 173);
+}
+.login a {
+    color: rgb(235, 187, 15);
+    text-decoration: none;
+}
+.or{
+    text-align: center;
+    margin: 15px;
+    color: rgb(10, 10, 10);
+    font-size: 13px;
+}
+.google{
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid rgb(156, 113, 113);
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: rgb(153, 153, 206);
+}
